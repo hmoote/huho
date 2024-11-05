@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دار غانم للسينما</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #222;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .movie {
+            background-color: #333;
+            border: 1px solid #555;
+            border-radius: 10px;
+            margin: 10px;
+            overflow: hidden;
+            width: 200px;
+        }
+
+        .movie img {
+            width: 100%;
+        }
+
+        .movie .info {
+            padding: 10px;
+        }
+
+        .movie h2 {
+            margin: 0 0 5px 0;
+        }
+
+        .movie .description {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .movie .button {
+            background-color: #f00;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            display: block;
+            font-size: 16px;
+            margin: 10px auto 0 auto;
+            padding: 10px 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .movie .button:hover {
+            background-color: #c00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>دار غانم للسينما</h1>
+    </header>
+    <main>
+        <div class="movie">
+            <img src="movie1.jpg" alt="فيلم 1">
+            <div class="info">
+                <h2>فيلم 1</h2>
+                <p class="description">وصف الفيلم الأول هنا.</p>
+                <button class="button">شاهد الآن</button>
+            </div>
+        </div>
+        <div class="movie">
+            <img src="movie2.jpg" alt="فيلم 2">
+            <div class="info">
+                <h2>فيلم 2</h2>
+                <p class="description">وصف الفيلم الثاني هنا.</p>
+                <button class="button">شاهد الآن</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
